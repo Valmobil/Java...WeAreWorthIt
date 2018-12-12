@@ -1,6 +1,7 @@
-.idea/
-UniteForWeAreWorth.iml
-
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.ipr
 
 # Compiled class file
 *.class
@@ -15,7 +16,6 @@ UniteForWeAreWorth.iml
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -25,3 +25,24 @@ UniteForWeAreWorth.iml
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+#MovenProject
+/target/
+.mvn
+!.mvn/wrapper/maven-wrapper.jar
+/mvnw
+/mvnw.cmd
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+
+
