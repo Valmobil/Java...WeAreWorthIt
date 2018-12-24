@@ -2,7 +2,7 @@ package org.city.project.model;
 
 import java.util.UUID;
 
-public class visits {
+public class Visits {
     private UUID visitsId;
     private UUID visitsCarsId;
     private UUID visitsPeopleId;

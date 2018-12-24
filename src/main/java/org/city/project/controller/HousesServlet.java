@@ -4,7 +4,7 @@ package org.city.project.controller;
 //public class housesServlet {
 
 //
-//    @GetMapping(path = "/houses")
+//    @GetMapping(path = "/Houses")
 //    public String getHouses(Model model) {
 //        System.out.println(model);
 ////        model.addAttribute("greeting", new Greeting());

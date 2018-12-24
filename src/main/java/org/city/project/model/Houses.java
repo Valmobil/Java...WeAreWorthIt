@@ -1,7 +1,7 @@
 package org.city.project.model;
 import java.util.UUID;
 
-public class houses {
+public class Houses {
     private UUID housesId;
     private String housesStreet;
     private String housesNumber;

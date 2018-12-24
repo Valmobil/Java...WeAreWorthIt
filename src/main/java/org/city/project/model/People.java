@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class People {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long peopleId;
@@ -17,6 +18,11 @@ public class People {
     private String peopleLastName;
     private String peoplePhone1;
     private String peoplePhone2;
+
+    public People(String peopleFirstName, String peopleLastName) {
+        this.peopleFirstName = peopleFirstName;
+        this.peopleLastName = peopleLastName;
+    }
 
     public Long getPeopleId() {
         return peopleId;
