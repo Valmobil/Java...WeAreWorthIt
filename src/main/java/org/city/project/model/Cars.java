@@ -1,41 +1,20 @@
 package org.city.project.model;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.repository.cdi.Eager;
+
+import javax.persistence.*;
 import java.util.UUID;
 
+@Data
+@Entity
 public class Cars {
-    private UUID carsId;
-    private UUID housesId;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "cars_id")
+    private Long carsId;
     private String carsModel;
+    private String carsColour;
     private String carsStateNumber;
 
-    public UUID getCarsId() {
-        return carsId;
-    }
-
-    public void setCarsId(UUID carsId) {
-        this.carsId = carsId;
-    }
-
-    public UUID getHousesId() {
-        return housesId;
-    }
-
-    public void setHousesId(UUID housesId) {
-        this.housesId = housesId;
-    }
-
-    public String getCarsModel() {
-        return carsModel;
-    }
-
-    public void setCarsModel(String carsModel) {
-        this.carsModel = carsModel;
-    }
-
-    public String getCarsStateNumber() {
-        return carsStateNumber;
-    }
-
-    public void setCarsStateNumber(String carsStateNumber) {
-        this.carsStateNumber = carsStateNumber;
-    }
-}
+ }

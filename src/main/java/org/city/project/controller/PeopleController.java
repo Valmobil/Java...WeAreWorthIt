@@ -1,6 +1,6 @@
 //package org.city.project.controller;
 //
-//import org.city.project.model.People;
+//import org.city.project.model.Persons;
 //import org.city.project.repository.PeopleRepository;
 //import org.springframework.boot.CommandLineRunner;
 //import org.springframework.boot.SpringApplication;
@@ -20,16 +20,16 @@
 //        return (args) -> {
 //            // save a couple of customers
 //
-//            repos.save(new People("Jack", "Bauer"));
-//            repos.save(new People("Chloe", "O'Brian"));
-//            repos.save(new People("Kim", "Bauer"));
-//            repos.save(new People("David", "Palmer"));
-//            repos.save(new People("Michelle", "Dessler"));
+//            repos.save(new Persons("Jack", "Bauer"));
+//            repos.save(new Persons("Chloe", "O'Brian"));
+//            repos.save(new Persons("Kim", "Bauer"));
+//            repos.save(new Persons("David", "Palmer"));
+//            repos.save(new Persons("Michelle", "Dessler"));
 //
 //            // fetch all customers
 //            System.out.println("Customers found with findAll():");
 //            System.out.println("-------------------------------");
-//            for (People customer : repos.findAll()) {
+//            for (Persons customer : repos.findAll()) {
 //                System.out.println(customer.toString());
 //            }
 //            System.out.println();
