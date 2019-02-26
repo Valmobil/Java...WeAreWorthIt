@@ -1,10 +1,7 @@
-package org.city.project.model;
+package org.city.project.entity;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import org.springframework.data.repository.cdi.Eager;
 
 import javax.persistence.*;
-import java.util.UUID;
 
 @Data
 @Entity

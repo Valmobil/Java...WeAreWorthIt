@@ -1,15 +1,17 @@
-package org.city.project.model;
+package org.city.project.entity;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 import javax.persistence.*;
 
 @Entity
 @Data
-@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
 public class Persons {
 
     @Id

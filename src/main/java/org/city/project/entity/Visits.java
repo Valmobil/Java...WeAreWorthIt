@@ -1,6 +1,4 @@
-package org.city.project.model;
-
-import java.util.UUID;
+package org.city.project.entity;
 
 public class Visits {
     private Long visitsId;

@@ -1,18 +1,15 @@
 package org.city.project;
 
-import org.city.project.model.Persons;
 import org.city.project.repository.PersonsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 
 @SpringBootApplication
 public class AppRunner {
 
-    @Autowired
+//    @Autowired
     PersonsRepository personsRepository;
 
     public static void main(String[] args) {
@@ -30,14 +27,14 @@ public class AppRunner {
 //            personsRepository.save(Persons.builder().personsFirstName("Kim").personsLastName("Bauer").build());
 //            personsRepository.save(Persons.builder().personsFirstName("David").personsLastName("Palmer").build());
 //            personsRepository.save(Persons.builder().personsFirstName("Michelle").personsLastName("Dessler").build());
-//
+////
 //            // fetch all customers
 //            System.out.println("Customers found with findAll():");
 //            System.out.println("-------------------------------");
 //            for (Persons persons : personsRepository.findAll()) {
 //                System.out.println(persons.toString());
 //            }
-////
+//
 //            // fetch an individual customer by ID
 //            personsRepository.findById(1L)
 //                    .ifPresent(persons -> {
@@ -45,7 +42,7 @@ public class AppRunner {
 //                        System.out.println("--------------------------------");
 //                        System.out.println(persons.toString());
 //                    });
-////
+//
 //            // fetch customers by last name
 //            System.out.println("Customer found with findByLastName('Bauer'):");
 //            System.out.println("--------------------------------------------");

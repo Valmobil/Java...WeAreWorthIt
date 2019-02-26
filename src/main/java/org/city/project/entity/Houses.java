@@ -1,4 +1,4 @@
-package org.city.project.model;
+package org.city.project.entity;
 import lombok.Data;
 import javax.persistence.*;
 

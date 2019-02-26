@@ -1,0 +1,2 @@
+insert into houses (houses_id, houses_Street, houses_Number, houses_Flat_Number) VALUES (1, 'Chernyahivskogo', '25a', '-');
+insert into houses (houses_id, houses_Street, houses_Number, houses_Flat_Number) VALUES (2, 'Chernyahivskogo', '15', '-');
